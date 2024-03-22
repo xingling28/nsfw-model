@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+gdown = "*"
+keras-core = "*"
+matplotlib = "*"
+numpy = "*"
+opencv-python = "*"
+pillow = "*"
+scikit-image = "*"
+tqdm = "*"
+tensorflow = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+pytest = "*"
+fire = "*"
+freezegun = "*"
+
+[requires]
+python_version = "3.10"

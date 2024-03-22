@@ -1,0 +1,11 @@
+# $package
+
+$description
+
+## Usage
+
+To install the dependencies run:
+
+```bash
+pipenv install --dev
+```
